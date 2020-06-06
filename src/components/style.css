@@ -1,0 +1,25 @@
+.item {
+  font-size: 1.8em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 3px 6px 0 #ccc;
+  padding: 5px;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  font-weight: 600;
+  margin-bottom: 2vh;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.item:hover {
+  background-color: #4009fb;
+  color: #fff;
+}
+.container-item {
+  margin-top: 5vh;
+  width: 90vw;
+}
